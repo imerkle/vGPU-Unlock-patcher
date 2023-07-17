@@ -492,6 +492,7 @@ if $DO_VGPU; then
     vcfgclone ${TARGET}/vgpuConfig.xml 0x1E30 0x12BA 0x1f03 0x0000	# RTX 2060 12GB
     vcfgclone ${TARGET}/vgpuConfig.xml 0x1E30 0x12BA 0x1f11 0x0000	# RTX 2060 Mobile 6GB
     vcfgclone ${TARGET}/vgpuConfig.xml 0x1E30 0x12BA 0x2184 0x0000	# GTX 1660 6GB
+    vcfgclone ${TARGET}/vgpuConfig.xml 0x1E30 0x12BA 0x21c4 0x0000	# GTX 1660 Super 6GB
     vcfgclone ${TARGET}/vgpuConfig.xml 0x1E30 0x12BA 0x1f95 0x0000	# GTX 1650 Ti Mobile 4GB
     vcfgclone ${TARGET}/vgpuConfig.xml 0x1E30 0x12BA 0x1EB1 0x0000	# Quadro RTX 4000
     vcfgclone ${TARGET}/vgpuConfig.xml 0x1E30 0x12BA 0x1ff2 0x0000	# Quadro T400 4GB
